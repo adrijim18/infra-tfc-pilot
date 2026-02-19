@@ -1,5 +1,6 @@
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_rg18" "rg" {
   name     = "rg-tfc-pilot-dev"
   location = "eastus"
 }
+
 
