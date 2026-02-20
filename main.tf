@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "rg" {
-  name     = "rg-tfc-pilot-vm-dev"
+  name     = "rg-tfc-pilot-vm-dev1811"
   location = var.location
 }
 
@@ -87,5 +87,6 @@ resource "azurerm_linux_virtual_machine" "vm" {
     version   = "latest"
   }
 }
+
 
 
